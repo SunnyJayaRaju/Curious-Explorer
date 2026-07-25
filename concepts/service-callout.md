@@ -159,6 +159,6 @@ Whether the proxy continues after a failure depends on whether the secondary ser
 
 ---
 
-📚 **Continue Learning**
+## 🔗 Continue Exploring
 
 - ⬅️ Back to the [Repository Home](../README.md)

@@ -156,6 +156,6 @@ Some variables are automatically provided by Apigee, while others are created by
 
 ---
 
-📚 **Continue Learning**
+## 🔗 Continue Exploring
 
 - ⬅️ Back to the [Repository Home](../README.md)

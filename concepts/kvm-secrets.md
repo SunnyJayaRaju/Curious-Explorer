@@ -144,6 +144,6 @@ It allows Apigee policies to retrieve values such as URLs, API Keys, timeouts, a
 
 ---
 
-📚 **Continue Learning**
+## 🔗 Continue Exploring
 
 - ⬅️ Back to the [Repository Home](../README.md)

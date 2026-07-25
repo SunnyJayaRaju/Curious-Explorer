@@ -175,6 +175,6 @@ API gateways such as Apigee validate the token's signature, expiration, issuer, 
 
 ---
 
-📚 **Continue Learning**
+## 🔗 Continue Exploring
 
 - ⬅️ Back to the [Repository Home](../README.md)

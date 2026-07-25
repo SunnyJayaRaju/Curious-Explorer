@@ -184,7 +184,7 @@ After identifying that the backend returned XML instead of JSON, I switched to a
 
 ---
 
-📚 **Continue Learning**
+## 🔗 Continue Exploring
 
-- ⬅️ Back to the [Repository Home](../README.md)
-- 📖 Related Concept: [What is an API Proxy?](../concepts/what-is-a-proxy.md)
+- 🏠 Back to the [Repository Home](../README.md)
+- 📖 Read Next: [What is an API Proxy?](../concepts/what-is-a-proxy.md)

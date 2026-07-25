@@ -138,6 +138,6 @@ By placing a proxy in front of backend services, organizations gain security, fl
 
 ---
 
-📚 **Continue Learning**
+## 🔗 Continue Exploring
 
 - ⬅️ Back to the [Repository Home](../README.md)

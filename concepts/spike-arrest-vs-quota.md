@@ -122,6 +122,6 @@ The two policies complement each other rather than compete with each other.
 
 ---
 
-📚 **Continue Learning**
+## 🔗 Continue Exploring
 
 - ⬅️ Back to the [Repository Home](../README.md)

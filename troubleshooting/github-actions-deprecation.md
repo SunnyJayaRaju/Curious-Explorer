@@ -126,7 +126,7 @@ Updating the workflow from `v3` to `v4` restored compatibility with GitHub's hos
 
 ---
 
-📚 **Continue Learning**
+## 🔗 Continue Exploring
 
-- ⬅️ Back to the [Repository Home](../README.md)
-- 📖 Related Concept: [What is an API Proxy?](../concepts/what-is-a-proxy.md)
+- 🏠 Back to the [Repository Home](../README.md)
+- 📖 Read Next: [What is an API Proxy?](../concepts/what-is-a-proxy.md)

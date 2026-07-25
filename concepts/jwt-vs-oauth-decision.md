@@ -146,6 +146,6 @@ Opaque tokens require server-side validation but provide stronger centralized co
 
 ---
 
-📚 **Continue Learning**
+## 🔗 Continue Exploring
 
 - ⬅️ Back to the [Repository Home](../README.md)

@@ -161,7 +161,7 @@ After checking the Environment Group configuration and switching to the assigned
 
 ---
 
-📚 **Continue Learning**
+## 🔗 Continue Exploring
 
-- ⬅️ Back to the [Repository Home](../README.md)
-- 📖 Related Concept: [What is an API Proxy?](../concepts/what-is-a-proxy.md)
+- 🏠 Back to the [Repository Home](../README.md)
+- 📖 Read Next: [What is an API Proxy?](../concepts/what-is-a-proxy.md)

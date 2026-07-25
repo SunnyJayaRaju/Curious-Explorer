@@ -157,7 +157,7 @@ After updating the `ProxyEndpoint` name and the associated `TargetEndpoint` refe
 
 ---
 
-📚 **Continue Learning**
+## 🔗 Continue Exploring
 
-- ⬅️ Back to the [Repository Home](../README.md)
-- 📖 Related Concept: [What is an API Proxy?](../concepts/what-is-a-proxy.md)
+- 🏠 Back to the [Repository Home](../README.md)
+- 📖 Read Next: [What is an API Proxy?](../concepts/what-is-a-proxy.md)

@@ -134,6 +134,6 @@ Automation doesn't replace developers. It helps developers deliver reliable soft
 
 ---
 
-📚 **Continue Learning**
+## 🔗 Continue Exploring
 
 - ⬅️ Back to the [Repository Home](../README.md)

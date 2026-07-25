@@ -153,6 +153,6 @@ Instead of giving applications permanent credentials, users grant temporary Acce
 
 ---
 
-📚 **Continue Learning**
+## 🔗 Continue Exploring
 
 - ⬅️ Back to the [Repository Home](../README.md)
