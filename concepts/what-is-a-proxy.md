@@ -135,3 +135,9 @@ An API Proxy acts as a secure intermediary between clients and backend services.
 It authenticates requests, applies traffic management policies, transforms messages, collects analytics, and protects backend systems from direct exposure.
 
 By placing a proxy in front of backend services, organizations gain security, flexibility, and centralized API management without changing client applications.
+
+---
+
+📚 **Continue Learning**
+
+- ⬅️ Back to the [Repository Home](../README.md)

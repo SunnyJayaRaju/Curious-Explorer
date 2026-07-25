@@ -154,3 +154,10 @@ Always verify object names before packaging and deploying a proxy.
 My deployment failed because the XML object names inside the proxy bundle didn't match the expected naming conventions and related references.
 
 After updating the `ProxyEndpoint` name and the associated `TargetEndpoint` reference, the bundle deployed successfully.
+
+---
+
+📚 **Continue Learning**
+
+- ⬅️ Back to the [Repository Home](../README.md)
+- 📖 Related Concept: [What is an API Proxy?](../concepts/what-is-a-proxy.md)

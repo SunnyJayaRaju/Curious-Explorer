@@ -158,3 +158,10 @@ The issue wasn't the proxy—it was DNS.
 I was using an incorrect hostname.
 
 After checking the Environment Group configuration and switching to the assigned `nip.io` hostname, the API became reachable immediately.
+
+---
+
+📚 **Continue Learning**
+
+- ⬅️ Back to the [Repository Home](../README.md)
+- 📖 Related Concept: [What is an API Proxy?](../concepts/what-is-a-proxy.md)

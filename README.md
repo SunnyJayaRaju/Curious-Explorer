@@ -39,7 +39,37 @@ Whenever I learn something—big or small—I write it down in simple words that
 
 ---
 
-## 🗂️ Concept Index
+## Repository Structure
+
+```text
+Curious-Explorer/
+├── README.md
+├── concepts/
+└── troubleshooting/
+```
+
+---
+
+## 📖 Suggested Learning Path
+
+If you're new to API Engineering or Apigee, I recommend exploring the repository in this order:
+
+1. 🛡️ What is an API Proxy?
+2. 🔑 OAuth 2.0 Simplified
+3. 🛂 JWTs: The Passport of the Internet
+4. ⚖️ JWT Access Tokens vs Opaque Access Tokens
+5. 🚦 Spike Arrest vs Quota
+6. 🔐 Key Value Maps (KVMs)
+7. 📡 Service Callouts
+8. 🧠 Flow Variables
+9. 🤖 CI/CD: The Quality Gate Philosophy
+10. 🐛 Troubleshooting Case Studies
+
+This sequence builds from foundational API concepts to real-world debugging experiences.
+
+---
+
+## 📚 Concept Index
 *Breakdowns of core engineering concepts using simple analogies.*
 
 | Domain | Topic | The Analogy |

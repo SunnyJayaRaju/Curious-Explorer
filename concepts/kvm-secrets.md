@@ -141,3 +141,9 @@ That separation makes APIs easier to maintain, deploy, and secure.
 A Key Value Map (KVM) stores configuration separately from API proxy code.
 
 It allows Apigee policies to retrieve values such as URLs, API Keys, timeouts, and passwords at runtime without hardcoding them into the proxy. This improves maintainability and supports more secure configuration management.
+
+---
+
+📚 **Continue Learning**
+
+- ⬅️ Back to the [Repository Home](../README.md)

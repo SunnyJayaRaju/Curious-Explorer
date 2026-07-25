@@ -123,3 +123,10 @@ Keeping automation up to date is part of maintaining reliable software delivery.
 My workflow failed because it referenced a deprecated version of `actions/upload-artifact`.
 
 Updating the workflow from `v3` to `v4` restored compatibility with GitHub's hosted runners and allowed the pipeline to complete successfully.
+
+---
+
+📚 **Continue Learning**
+
+- ⬅️ Back to the [Repository Home](../README.md)
+- 📖 Related Concept: [What is an API Proxy?](../concepts/what-is-a-proxy.md)

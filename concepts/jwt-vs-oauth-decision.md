@@ -143,3 +143,9 @@ OAuth 2.0 defines **how clients obtain access tokens**, while JWT and Opaque Tok
 JWTs are self-contained and validated locally, making them ideal for high-performance APIs.
 
 Opaque tokens require server-side validation but provide stronger centralized control and immediate revocation, making them well suited for highly sensitive systems such as banking.
+
+---
+
+📚 **Continue Learning**
+
+- ⬅️ Back to the [Repository Home](../README.md)

@@ -172,3 +172,9 @@ The Signature simply proves that the contents have not been altered since they w
 A JSON Web Token (JWT) is a digitally signed token that securely carries claims about a user or system.
 
 API gateways such as Apigee validate the token's signature, expiration, issuer, audience, and claims before allowing requests to reach backend services. JWTs provide a secure, stateless way to identify and authorize requests without repeatedly querying backend systems.
+
+---
+
+📚 **Continue Learning**
+
+- ⬅️ Back to the [Repository Home](../README.md)

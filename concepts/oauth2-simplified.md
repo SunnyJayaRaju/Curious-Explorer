@@ -150,3 +150,9 @@ Authentication is often handled by systems such as OpenID Connect (OIDC), which 
 OAuth 2.0 allows users to grant limited access to applications without sharing their passwords.
 
 Instead of giving applications permanent credentials, users grant temporary Access Tokens with specific permissions. API gateways such as Apigee validate these tokens before requests reach backend services, making APIs more secure, scalable, and easier to manage.
+
+---
+
+📚 **Continue Learning**
+
+- ⬅️ Back to the [Repository Home](../README.md)

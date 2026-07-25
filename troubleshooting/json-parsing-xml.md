@@ -181,3 +181,10 @@ Always inspect the response before deciding how to process it.
 My JavaScript policy failed because I attempted to parse an XML response using `JSON.parse()`.
 
 After identifying that the backend returned XML instead of JSON, I switched to a JSON endpoint for the lab. Alternatively, I could have used an `XMLToJSON` policy to transform the payload before parsing it.
+
+---
+
+📚 **Continue Learning**
+
+- ⬅️ Back to the [Repository Home](../README.md)
+- 📖 Related Concept: [What is an API Proxy?](../concepts/what-is-a-proxy.md)

@@ -119,3 +119,9 @@ Use **Spike Arrest** to smooth sudden bursts of traffic and protect backend serv
 Use **Quota** to limit how much a client can consume over time based on business rules, subscription plans, or fair usage policies.
 
 The two policies complement each other rather than compete with each other.
+
+---
+
+📚 **Continue Learning**
+
+- ⬅️ Back to the [Repository Home](../README.md)
