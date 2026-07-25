@@ -65,10 +65,10 @@ Whenever I learn something—big or small—I write it down in simple words that
 | **⚙️ DevOps** | **[Action Deprecation](./troubleshooting/github-actions-deprecation.md)** | Fixing outdated GitHub Action versions. |
 ---
 
-## 🔗 Connected Ecosystem
+## 🔗 Related Repository
 This repository is the *theory*. To see the *practice*, check out my lab:
 
-### [🧪 Apigee-Lab](https://github.com/SunnyJayaRaj/Apigee-Lab)
+### [🧪 Apigee-Lab](https://github.com/SunnyJayaRaju/Apigee-Lab)
 My hands-on technical portfolio where I implement these concepts into real Enterprise API Proxies (JWT, Caching, FaultRules).
 
 ---
@@ -98,7 +98,7 @@ Let’s keep learning, keep building, and most importantly—**keep exploring** 
 <br>
 
 <div align="center">
-  <a href="https://github.com/SunnyJayaRaj">
+  <a href="https://github.com/SunnyJayaRaju">
     <img src="https://img.shields.io/badge/Return_to-Profile-EA4335?style=for-the-badge&logo=github&logoColor=white" alt="Return to Profile">
   </a>
 </div>
