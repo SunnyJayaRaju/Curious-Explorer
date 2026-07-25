@@ -1,29 +1,127 @@
-# 🧠 Flow Variables: The Sticky Notes of Apigee
+# 🧠 Flow Variables: The Shared Memory of an API Request
 
-**Date:** Nov 27, 2025 | **Mood:** 🕵️‍♂️ Detective
+**Date:** Nov 27, 2025 | **Mood:** 🕵️‍♂️ Understanding the Flow
 
 ## The Concept
-When a request enters Apigee, it’s not just a static piece of data. Apigee creates a "Session" for that request. Inside this session, you can store data, read data, and pass data between policies. These storage spots are called **Flow Variables**.
 
-If you don't understand Variables, you can't write logic.
+Every request that enters Apigee creates its own execution context.
+
+As the request moves through the API proxy, different policies can:
+
+- Read information
+- Create new information
+- Update existing information
+- Make decisions based on that information
+
+This shared information is stored in **Flow Variables**.
+
+Without Flow Variables, policies would work in isolation and couldn't communicate with each other.
+
+---
 
 ## The Analogy: The Medical Clipboard 📋
-Imagine a patient (The Request) entering a Hospital (Apigee).
-1.  **The Intake Nurse:** Checks the ID and writes "Blood Pressure: 120/80" on a **Clipboard**.
-2.  **The Doctor:** Reads the clipboard. She doesn't ask the patient again; she just reads the variable `patient.blood_pressure`.
-3.  **The Surgeon:** Adds a new note: `surgery.status = "success"`.
-4.  **The Billing Dept:** Reads the status and prints the bill.
 
-The **Clipboard** is the Flow. The **Notes** are the Variables.
+Imagine a patient arriving at a hospital.
 
-## Common Variables I Learned
-* `request.header.Authorization`: The token the user sent.
-* `request.queryparam.city`: What the user asked for (e.g., `?city=London`).
-* `response.status.code`: Did the backend say 200 OK or 500 Error?
-* `client.ip`: The IP address of the user.
+The patient moves through several departments.
 
-## How to use them?
-You use them in **Conditions** to make decisions:
+### 👩‍⚕️ Reception
+
+The receptionist records:
+
+- Name
+- Age
+- Patient ID
+
+These notes are written onto the patient's clipboard.
+
+---
+
+### 🩺 Doctor
+
+The doctor doesn't ask for the patient's name again.
+
+Instead, they simply read the clipboard.
+
+The doctor then adds:
+
+```
+diagnosis = Flu
+```
+
+---
+
+### 🏥 Laboratory
+
+The laboratory adds:
+
+```
+blood_test = Normal
+```
+
+---
+
+### 💊 Pharmacy
+
+The pharmacist reads everything already written and prepares the medicine.
+
+Nobody keeps asking the patient for the same information because everyone shares the same clipboard.
+
+The clipboard represents the **Flow**.
+
+Each note represents a **Flow Variable**.
+
+---
+
+## Built-in Flow Variables
+
+Apigee automatically creates hundreds of Flow Variables.
+
+Some examples include:
+
+| Variable | Description |
+|----------|-------------|
+| `request.header.Authorization` | Authorization header sent by the client |
+| `request.queryparam.city` | Query parameter value |
+| `request.verb` | HTTP method (GET, POST, PUT...) |
+| `request.path` | Requested API path |
+| `response.status.code` | Backend response status |
+| `client.ip` | Client IP address |
+
+These variables are available without writing any code.
+
+---
+
+## Custom Flow Variables
+
+Policies can also create their own variables.
+
+For example:
+
+```xml
+<AssignMessage name="Set-Customer-Type">
+    <AssignVariable>
+        <Name>customer.type</Name>
+        <Value>Premium</Value>
+    </AssignVariable>
+</AssignMessage>
+```
+
+Once created, other policies can immediately use:
+
+```
+customer.type
+```
+
+This is how policies communicate with each other.
+
+---
+
+## Using Flow Variables in Conditions
+
+One of the most common uses is conditional execution.
+
+Example:
 
 ```xml
 <Step>
@@ -32,5 +130,26 @@ You use them in **Conditions** to make decisions:
 </Step>
 ```
 
+Apigee evaluates the condition using Flow Variables.
+
+If the condition is true, the policy executes.
+
+Otherwise, it skips that policy.
+
+---
+
+## My Rule of Thumb
+
+Whenever I think about Flow Variables, I remember:
+
+> **Policies don't talk to each other directly. They communicate through Flow Variables.**
+
+That simple idea explains how almost every Apigee proxy works.
+
+---
+
 ## TL;DR
-Flow Variables are `Sticky Notes` attached to the request as it moves through the proxy. They let policies talk to each other without modifying the actual message.
+
+Flow Variables are shared pieces of information created and used while an API request moves through an Apigee proxy.
+
+Some variables are automatically provided by Apigee, while others are created by policies. Together they allow policies to share data, make decisions, and coordinate request processing without modifying the original request or response.
