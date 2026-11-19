@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.npmrc
+*.tfstate
+*.tfstate.*
+credentials*
+auth.json
+*.sqlite
+*.db
+.DS_Store
