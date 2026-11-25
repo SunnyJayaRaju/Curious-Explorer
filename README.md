@@ -123,8 +123,8 @@ This repository is the theory. To see the practice, check out my lab:
 My hands-on portfolio where I implement these concepts in real API proxies (JWT, caching, FaultRules).
 
 ```mermaid
-flowchart LR
-  A["Curious-Explorer<br/>concepts + bug log"] -->|"theory into practice"| B["Apigee-Lab<br/>API proxies + policies"]
+flowchart TD
+  A["📝 Curious-Explorer<br/>notes + bug log"] --> B["🧪 Apigee-Lab<br/>proxies + policies"]
 ```
 
 ---
