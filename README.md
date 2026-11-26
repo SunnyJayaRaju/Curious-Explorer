@@ -29,7 +29,7 @@ less concepts/what-is-a-proxy.md
 - [Concept Index](#-concept-index)
 - [Bug Log](#-bug-log)
 - [Related Repository](#-related-repository)
-- [Tools I'm Learning](#%EF%B8%8F-tools-im-learning)
+- [Tools I'm Learning](#-tools-im-learning)
 - [A Note to Myself](#-a-note-to-myself)
 - [Let's Explore](#-lets-explore)
 
