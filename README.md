@@ -1,11 +1,15 @@
 # 🌍 Curious-Explorer
 
-## At a glance
+## 📌 At A Glance
 
 A digital field journal: notes on APIs, gateways, security and debugging, written in plain words as I learn.
 
-![Status](https://img.shields.io/badge/Status-Active_Learning-success?style=for-the-badge&logo=gitbook&logoColor=white)
-![Maintainer](https://img.shields.io/badge/Maintainer-MaveRick-orange?style=for-the-badge)
+<p align="center">
+  <a href="https://github.com/SunnyJayaRaju/Curious-Explorer"><img alt="Status: Active Learning" src="https://img.shields.io/badge/Status-Active_Learning-success?style=flat-square&logo=gitbook&logoColor=white" /></a>
+  <a href="https://github.com/SunnyJayaRaju"><img alt="Maintainer: MaveRick" src="https://img.shields.io/badge/Maintainer-MaveRick-orange?style=flat-square" /></a>
+</p>
+
+### ⚡ Quick Start
 
 ```bash
 git clone https://github.com/SunnyJayaRaju/Curious-Explorer.git
@@ -15,19 +19,19 @@ less concepts/what-is-a-proxy.md
 
 ---
 
-## 📌 Table of Contents
+## 📑 Table of Contents
 
-- [At a glance](#at-a-glance)
-- [👋 Welcome](#-welcome)
-- [🎯 Purpose of this repository](#-purpose-of-this-repository)
-- [Repository Structure](repository-structure)
-- [📖 Suggested Learning Path](#-suggested-learning-path)
-- [🗂️ Concept Index](#%EF%B8%8F-concept-index)
-- [🐛 Bug Log](#-bug-log)
-- [🔗 Related Repository](#-related-repository)
-- [🛠️ Tools I'm Learning](#%EF%B8%8F-tools-im-learning)
-- [🧡 A note to myself](#-a-note-to-myself)
-- [🚀 Let's Explore](#-lets-explore)
+- [At A Glance](#-at-a-glance)
+- [Welcome](#-welcome)
+- [Purpose of This Repository](#-purpose-of-this-repository)
+- [Repository Structure](#-repository-structure)
+- [Suggested Learning Path](#-suggested-learning-path)
+- [Concept Index](#-concept-index)
+- [Bug Log](#-bug-log)
+- [Related Repository](#-related-repository)
+- [Tools I'm Learning](#%EF%B8%8F-tools-im-learning)
+- [A Note to Myself](#-a-note-to-myself)
+- [Let's Explore](#-lets-explore)
 
 ---
 
@@ -38,7 +42,7 @@ I'm building my foundation one step at a time and learning by doing.
 
 ---
 
-## 🎯 Purpose of this repository
+## 🎯 Purpose of This Repository
 
 This repo acts as my **second brain**. Whenever I learn something, big or small, I write it down in simple words that make sense to me.
 
@@ -54,13 +58,16 @@ This repo acts as my **second brain**. Whenever I learn something, big or small,
 
 ---
 
-## Repository Structure
+## 📂 Repository Structure
 
 ```text
 Curious-Explorer/
-├── README.md
 ├── concepts/
-└── troubleshooting/
+├── troubleshooting/
+├── .gitignore
+├── LICENSE
+├── README.md
+└── SECURITY.md
 ```
 
 ---
@@ -98,6 +105,7 @@ _Breakdowns of core engineering concepts using simple analogies._
 | **🤫 Secrets**       | **[KVM (Key Value Maps)](./concepts/kvm-secrets.md)**             | The Bank Safety Deposit Box.         |
 | **📡 Orchestration** | **[Service Callouts](./concepts/service-callout.md)**             | The Main Flow vs. The Side Quest.    |
 | **🤖 Automation**    | **[The Quality Gate](./concepts/ci-cd-quality-gate.md)**          | Why we use robots to check our code. |
+| **⚖️ Decisions**     | **[JWT vs Opaque Tokens](./concepts/jwt-vs-oauth-decision.md)**   | The Passport vs. The Coat Check.     |
 
 ---
 
@@ -122,10 +130,16 @@ This repository is the theory. To see the practice, check out my lab:
 
 My hands-on portfolio where I implement these concepts in real API proxies (JWT, caching, FaultRules).
 
+<details>
+<summary><b>Click to Open the Diagram</b></summary>
+
 ```mermaid
-flowchart TD
-  A["📝 Curious-Explorer<br/>notes + bug log"] --> B["🧪 Apigee-Lab<br/>proxies + policies"]
+%%{init: {"flowchart": {"nodeSpacing": 40, "rankSpacing": 50, "padding": 16}}}%%
+flowchart LR
+  A["📝 Curious-Explorer<br/>concepts + bug log"] -->|"theory into practice"| B["🧪 Apigee-Lab<br/>API proxies + policies"]
 ```
+
+</details>
 
 ---
 
@@ -139,7 +153,7 @@ flowchart TD
 
 ---
 
-## 🧡 A note to myself
+## 🧡 A Note to Myself
 
 > _"Start where you are. Use what you have. Do what you can."_ (Arthur Ashe)
 
@@ -153,4 +167,4 @@ And to my future self: look how far you've come 👣.
 
 Thanks for stopping by. Let's keep learning, keep building and, most importantly, keep exploring 🌟.
 
-[![Return to Profile](https://img.shields.io/badge/Return_to-Profile-EA4335?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SunnyJayaRaju)
+[![Return to Profile](https://img.shields.io/badge/Return_to-Profile-EA4335?style=flat-square&logo=github&logoColor=white)](https://github.com/SunnyJayaRaju)
